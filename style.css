@@ -1,0 +1,72 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+    max-width: 900px;
+    margin: auto;
+}
+
+#titulo, .subtitulo, .post-titulo{
+    color: #505050;
+}
+
+#titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.post-titulo{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #505050;
+}
+
+.post{
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post .texto{
+    margin: 0;
+    margin-bottom: 15px;
+    /* text-transform: capitalize; */
+}
+
+.post-imagem{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.redes-sociais-titulo{
+    padding: 0;
+    padding-left: 15px;
+}
+
+.redes-sociais ul{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    color: #505050;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover{
+    color: #934EC9;
+}
